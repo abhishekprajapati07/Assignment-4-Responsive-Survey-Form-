@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-4</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h2>Survey Form</h2>
+        <form action="https://enw7u145b8im9.x.pipedream.net/" method="post">
+            <div class="first_name">
+                <label>First Name</label>
+                <input class="input-container" name="first_name" type="text" placeholder="e.g:Mohit" size="30px"
+                    required="" />
+            </div>
+            <br />
+            <div class="last_name">
+                <label>Last Name</label>
+                <input class="input-container" name="last_name" type="text" placeholder="e.g:Jaiswal" size="30px"
+                    required="" />
+            </div>
+            <br />
+            <div class="street_address">
+                <label>Street/Colony/Town</label>
+                <input class="input-container" name="street_address" type="text" placeholder="e.g:Liberty Park"
+                    size="30px" required="" />
+                <br />
+                <br />
+                <label>City &nbsp; &nbsp; &nbsp; &nbsp;</label>
+                <input class="input-container" name="city" type="text" placeholder="e.g:Varanasi" size="30px"
+                    required="" />
+                <br />
+                <br />
+                <label>State &nbsp; &nbsp; &nbsp; &nbsp;</label>
+                <input class="input-container" name="state" type="text" placeholder="e.g:Uttarakhand" size="30px"
+                    required="" />
+                <br />
+                <br />
+                <label>Pincode &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp;</label>
+                <input class="input-container" name="pincode" type="number" placeholder="" size="30px" required="" />
+            </div>
+            <br />
+            <div class="contact_number">
+                <label>Contact Number &nbsp; &nbsp; &nbsp; &nbsp;</label>
+                <input class="input-container" name="contact_number" type="number" placeholder="" size="30px"
+                    required="" />
+            </div>
+
+            <br />
+            <div class="quality_of_product_received">
+                <label>Quality of Products Received:</label><br />
+                <div class="review">
+                    <div class="review1">
+                        <input type="radio" name="quality_of_product_received" value="excellent" required="" />
+                        Excellent
+                    </div>
+                    <div class="review2">
+                        <input type="radio" name="quality_of_product_received" value="good" required="" />
+                        Good
+                    </div>
+                    <div class="review3">
+                        <input type="radio" name="quality_of_product_received" value="bad" required="" />
+                        Bad
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="value_for_money">
+                <label>Value for Money:</label><br />
+                <div class="review">
+                    <div class="review1">
+                        <input type="radio" name="value_for_money" value="excellent" required="" />
+                        Excellent
+                    </div>
+                    <div class="review2">
+                        <input type="radio" name="value_for_money" value="good" required="" />
+                        Good
+                    </div>
+                    <div class="review3">
+                        <input type="radio" name="value_for_money" value=" bad" required="" />
+                        Bad
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="delivery">
+                <label>Delivery:</label><br />
+                <div class="review">
+                    <div class="review1">
+                        <input type="radio" name="delivery_rating" value="excellent" required="" />
+                        Excellent
+                    </div>
+                    <div class="review2">
+                        <input type="radio" name="delivery_rating" value="good" required="" />
+                        Good
+                    </div>
+                    <div class="review3">
+                        <input type="radio" name="delivery_rating" value="bad" required="" />
+                        Bad
+                    </div>
+                </div>
+            </div>
+
+            <button>Submit Your Response</button>
+            <div class="button1">
+                <button type="reset">Reset All</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
